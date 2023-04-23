@@ -1,0 +1,11 @@
+@charset "utf-8";
+
+.about_mv{
+  margin: auto;
+  width: 35rem;
+}
+.about_mv h1{
+
+  text-align: center;
+  border-bottom: solid 2px #ffa500;
+}
