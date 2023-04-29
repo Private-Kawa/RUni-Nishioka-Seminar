@@ -8,200 +8,169 @@
 }
 
 .about_mv h1 {
+  margin: 0 auto;
   font-size: 35px;
   text-align: center;
-  border-bottom: solid 2px #ffa500;
+  letter-spacing: 10px;
 }
 
 /* 学びの目的-ここから- */
 .about_purpose h2 {
-  margin-top: 30px;
+  margin: 70px auto 30px;
   text-align: center;
-  font-size: 28px;
   transform: translate(-50%, -50%);
-
-  /* 見出しの飾り-ここから */
-  position: relative;
   display: inline-block;
-  padding: 20px 85px;
   left: 50%;
+  letter-spacing: 10px;
 }
-
-.about_purpose h2:before,
-.about_purpose h2:after {
-  content: '';
-  position: absolute;
-  top: 50%;
-  display: inline-block;
-  width: 60px;
-  height: 2px;
-  background-color: black;
-}
-
-.about_purpose h2:before {
-  left: 0;
-}
-
-.about_purpose h2:after {
-  right: 0;
-}
-/* 見出しの飾り-ここまで */
 .about_purpose p{
   text-align: center;
+  font-size: 18px;
 }
-
 /* 学びの目的-ここまで- */
 
 /* 経営学部で学ぶこと-ここから- */
 .about_learning h2 {
-  margin-top: 30px;
+  margin: 70px auto 30px;
   text-align: center;
-  font-size: 28px;
   transform: translate(-50%, -50%);
-
-  /* 見出しの飾り-ここから */
-  position: relative;
   display: inline-block;
-  padding: 20px 85px;
   left: 50%;
+  letter-spacing: 10px;
 }
-
-.about_learning h2:before,
-.about_learning h2:after {
-  content: '';
-  position: absolute;
-  top: 50%;
-  display: inline-block;
-  width: 60px;
-  height: 2px;
-  background-color: black;
-}
-
-.about_learning h2:before {
-  left: 0;
-}
-
-.about_learning h2:after {
-  right: 0;
-}
-
-/* 見出しの飾り-ここまで */
 
 .about_learning ul{
-  padding: 30px;
-  background-color: var(--color_main);
+  margin: auto;
+  width: 70%;
+  padding: 20px 0;
+  background-color: var(--color_sub);
   border-radius: 10px;
+  font-size: 20px;
 }
 
 .about_learning li{
-  margin-left: 10vw;
+  margin: 5px 20% 5px;
 }
 /* 経営学部で学ぶこと-ここまで- */
 
 /* 取得可能な資格-ここから- */
 .about_qualification h2 {
-  margin-top: 30px;
+  margin: 60px auto;
   text-align: center;
-  font-size: 28px;
   transform: translate(-50%, -50%);
-
-  /* 見出しの飾り-ここから */
-  position: relative;
   display: inline-block;
-  padding: 20px 85px;
   left: 50%;
+  letter-spacing: 10px;
 }
 
-.about_qualification h2:before,
-.about_qualification h2:after {
-  content: '';
-  position: absolute;
-  top: 50%;
-  display: inline-block;
-  width: 60px;
-  height: 2px;
-  background-color: black;
+.about_qualification ul{
+  display: flex;
+  flex-wrap: wrap;
 }
 
-.about_qualification h2:before {
-  left: 0;
+.about_qualification li{
+  width: calc(70% / 2); 
+  margin: 0 auto 0 0;
+  padding: 30px 0 20px ;
+  list-style: none;
+  border-bottom: 2px solid var(--color_sub);
 }
-
-.about_qualification h2:after {
-  right: 0;
-}
-
-/* 見出しの飾り-ここまで */
 /* 取得可能な資格-ここまで- */
 
 /* カリキュラム-ここから- */
 .about_curriculum h2 {
-  margin-top: 30px;
+  margin: 60px auto;
   text-align: center;
-  font-size: 28px;
   transform: translate(-50%, -50%);
-
-  /* 見出しの飾り-ここから */
-  position: relative;
   display: inline-block;
-  padding: 20px 85px;
   left: 50%;
+  letter-spacing: 10px;
 }
 
-.about_curriculum h2:before,
-.about_curriculum h2:after {
-  content: '';
-  position: absolute;
-  top: 50%;
-  display: inline-block;
-  width: 60px;
-  height: 2px;
-  background-color: black;
+.about_curriculum h3{
+  margin: 70px auto 30px;
+  text-align: center;
+  font-size: 18px;
 }
 
-.about_curriculum h2:before {
-  left: 0;
+.about_curriculum img{
+  display: block;
+  margin: auto;
+  width: 80%;
 }
 
-.about_curriculum h2:after {
-  right: 0;
+.about_curriculum_topic{
+  margin: 40px auto 30px;
 }
 
-/* 見出しの飾り-ここまで */
+.about_corriculum_topic_left{
+  width: fit-content;
+  position: relative;
+  top: 25px;
+}
+
+.about_corriculum_topic_left p{
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+  background-color: var(--color_main);
+  border-radius: 40px;
+  padding: 15px;
+  margin: auto 40px;
+}
+
+
+.about_corriculum_topic_right{
+  width: fit-content;
+  margin: 0 0 0 auto;
+  position: relative;
+  top: 25px;
+}
+
+.about_corriculum_topic_right p{
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+  background-color: var(--color_main);
+  border-radius: 40px;
+  padding: 15px;
+  margin: auto 40px;
+}
+
+.about_corriculum_topic_content{
+  text-align: center;
+  background-color: var(--color_sub);
+  border-radius: 40px;
+  padding: 30px;
+  margin: auto 100px;
+  font-size: 18px;
+}
+
+.about_curriculum_topic img{
+  top: -50%;
+}
 /* カリキュラム-ここまで- */
 
 /* 龍谷大学経営学部の魅力-ここから- */
 .about_point h2 {
-  margin-top: 30px;
+  margin: 70px auto 30px;
   text-align: center;
-  font-size: 28px;
   transform: translate(-50%, -50%);
-
-  /* 見出しの飾り-ここから */
-  position: relative;
   display: inline-block;
-  padding: 20px 85px;
   left: 50%;
+  letter-spacing: 10px;
 }
 
-.about_point h2:before,
-.about_point h2:after {
-  content: '';
-  position: absolute;
-  top: 50%;
-  display: inline-block;
-  width: 60px;
-  height: 2px;
-  background-color: black;
+.about_point ul{
+  margin: auto;
+  width: 70%;
+  padding: 20px 0;
+  background-color: var(--color_sub);
+  border-radius: 10px;
+  font-size: 20px;
 }
 
-.about_point h2:before {
-  left: 0;
+.about_point li{
+  margin: 5px 20% 5px;
 }
-
-.about_point h2:after {
-  right: 0;
-}
-
-/* 見出しの飾り-ここまで */
 /* 龍谷大学経営学部の魅力-ここまで- */
