@@ -1,0 +1,19 @@
+@charset "utf-8";
+
+.necessary_box {
+	width: calc(33.33333% - 3rem);
+	padding: 15px;
+	border: 3px solid #ffa500;
+	border-radius: 10px;
+}
+
+@media screen and (max-width: 992px) {
+	.necessary_box {
+		width: 100%;
+	}
+}
+
+.necessary_title {
+	text-align: center;
+	font-size: 24px;
+}
