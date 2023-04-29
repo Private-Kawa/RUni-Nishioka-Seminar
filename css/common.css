@@ -6,6 +6,7 @@ css変数
 :root {
 	/* 配色 */
 	--color_main: #ffa500;
+	--color_sub: #ffe4b5;
 	--bgcolor_main: #fff;
 
 	/* フォント */
@@ -25,6 +26,43 @@ html {
 body {
 	position: relative;
 	font: var(--font_size_base)/var(--font_line_height_base) var(--font_ja), var(--font_en);
+}
+
+/* 見出し共通 */
+h1 {
+	margin: 0 auto;
+	border-bottom: 2px solid var(--color_main);
+	font-style: 30px;
+	text-align: center;
+}
+
+h2 {
+	position: relative;
+	text-align: center;
+	font-size: 24px;
+	margin: 30px auto;
+	padding: 20px 85px;
+	width: 50%;
+}
+
+h2::before {
+	content: '';
+	position: absolute;
+	top: 50%;
+	left: 0;
+	width: 60px;
+	height: 2px;
+	background-color: black;
+}
+
+h2::after {
+	content: '';
+	position: absolute;
+	top: 50%;
+	right: 0;
+	width: 60px;
+	height: 2px;
+	background-color: black;
 }
 
 /*--------------------
