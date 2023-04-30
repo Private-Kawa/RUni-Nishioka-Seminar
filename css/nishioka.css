@@ -1,0 +1,101 @@
+@charset "utf-8";
+
+/* ゼミで習得する能力 -ここから-*/
+.nishioka_ability{
+  width: 100%;
+}
+
+.nishioka_ability_contents{
+  margin: auto;
+  width: 80%;
+  padding: 20px 0;
+  background-color: var(--color_sub);
+  border-radius: 10px;
+  text-align: center;
+  font-size: 20px;
+}
+
+.nishioka_ability_contents1 .box{
+  padding: 10px 20px;
+  background-color: var(--color_main);
+  border-radius: 10px;
+}
+
+.nishioka_ability_contents1 p:not(box){
+  padding: 10px;
+}
+
+.nishioka_ability_content_message{
+  margin: 30px;
+}
+/* ゼミで習得する能力 -ここまで-*/
+
+/* 目標・予定 -ここから-*/
+.nishioka_goal_contents{
+  margin: auto;
+  width: 80%;
+  padding: 20px 0;
+  background-color: var(--color_sub);
+  border-radius: 10px;
+  text-align: center;
+  font-size: 20px;
+}
+/* 目標・予定 -ここまで-*/
+
+/* ゼミの進め方 -ここから-*/
+.nishioka_process_contents{
+  margin: auto;
+  width: 80%;
+  padding: 20px 0;
+  background-color: var(--color_sub);
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+.nishioka_process_content1{
+  width: 80%;
+  padding: 10px 0;
+  border: solid 3px var(--color_main);
+  border-radius: 10px;
+  text-align: center;
+  margin: 10px auto;
+}
+
+.nishioka_process_content2{
+  width: 80%;
+  padding: 10px 0;
+  border: solid 3px var(--color_main);
+  border-radius: 10px;
+  margin: auto;
+}
+/* ゼミの進め方 -ここまで-*/
+
+/* ゼミのスケジュール -ここから-*/
+.nishioka_schedule_topic{
+  width: 50%;
+  position: relative;
+  top: 25px;
+  margin: 0 auto;
+}
+
+.nishioka_schedule h3{
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+  background-color: var(--color_main);
+  border-radius: 40px;
+  padding: 15px;
+  margin: auto 40px;
+}
+
+.nishioka_schedule_content{
+  text-align: center;
+  background-color: var(--color_sub);
+  border-radius: 40px;
+  padding: 30px;
+  margin: auto 100px;
+  font-size: 18px;
+}
+
+/* ゼミのスケジュール -ここまで-*/
+
