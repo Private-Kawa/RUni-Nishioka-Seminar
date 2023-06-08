@@ -80,4 +80,27 @@ h2::after {
 .main {}
 
 /* フッター */
-.footer {}
+.footer {
+	width: 100%;
+	background-color: var(--color_main);
+}
+
+.title{
+	text-decoration: none;
+	margin: 50px 0 20px;
+	color: var(--color_sub);
+	font-size: 25px;
+}
+
+.title:hover{
+	color: var(--color_sub);
+}
+
+.nav-item a{
+	margin-left: 10px;
+	color: #000;
+}
+
+.bi{
+	width: 5em;
+}
