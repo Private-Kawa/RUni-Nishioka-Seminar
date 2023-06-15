@@ -1,0 +1,25 @@
+@charset "utf-8";
+
+.seminar_title {
+	width: max-content;
+	padding: 10px 50px;
+	background-color: rgba(255, 166, 0, .75);
+	border-radius: 20px;
+	position: relative;
+	top: 20px;
+}
+
+.seminar_title:nth-of-type(2n) {
+	position: relative;
+	margin: 0 0 0 auto;
+}
+
+.seminar_box {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 20px;
+	padding: 15px 20px 10px;
+	background-color: rgba(255, 166, 0, .5);
+	border-radius: 20px;
+}
