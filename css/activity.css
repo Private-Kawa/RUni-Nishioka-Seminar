@@ -35,6 +35,16 @@
   gap: 10px;
 }
 
+.activity_team1_img img{
+  width: 400px;
+  height: 400px;
+}
+
+.activity_team2_img img{
+  width: 400px;
+  height: 400px;
+}
+
 .activity_team3_sns {
   width: 8%;
   margin: 20px 10%;
