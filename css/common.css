@@ -84,23 +84,35 @@ h2::after {
 	width: 100%;
 	background-color: var(--color_main);
 }
-
-.title{
+col{
+	position: relative;
+}
+.footer_title{
 	text-decoration: none;
-	margin: 50px 0 20px;
 	color: var(--color_sub);
 	font-size: 25px;
 }
 
-.title:hover{
+.footer_title:hover{
 	color: var(--color_sub);
 }
 
 .nav-item a{
+	text-decoration: none;
 	margin-left: 10px;
 	color: #000;
 }
 
 .bi{
 	width: 5em;
+}
+
+.footer_SNS ul{
+	
+}
+
+.footer_SNS li{
+	position: relative;
+	margin-top: 50px;
+	left: -150px;
 }
