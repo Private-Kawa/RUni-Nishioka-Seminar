@@ -1,0 +1,37 @@
+@charset "utf-8";
+
+.class_wrap {
+	margin-top: 80px;
+}
+
+.class_mv_wrap {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 20px;
+}
+
+.class_mv {
+	width: 90vw;
+	height: 400px;
+	object-fit: cover;
+}
+
+.class_box {
+	width: 40vw;
+	height: 70px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: var(--color_main);
+	position: relative;
+	right: 0;
+	margin-left: auto;
+	
+}
+
+.class_box_text {
+	margin: 0;
+	font-size: 20px;
+	letter-spacing: 1vw;
+}
