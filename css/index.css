@@ -1,7 +1,7 @@
 @charset "utf-8";
 
 .top_mv {
-  background-image: url(../img/上から見た龍大.jpeg);
+  background-image: url(/img/top/top01.jpeg);
   background-size: cover;
   height: 100vh;
   position: relative;
@@ -18,12 +18,8 @@
   background-color: rgba(255, 210, 146, 0.6);
 }
 
-.univ_name h1{
+.univ_name p {
   font-size: 70px;
-}
-
-.univ_name h2{
-  font-size: 50px;
 }
 
 /* お知らせ‐ここから */
@@ -32,34 +28,8 @@
   text-align: center;
   font-size: 28px;
   transform: translate(-50%, -50%);
-
-  /* 見出しの飾り-ここから */
-  position: relative;
-  display: inline-block;
-  padding: 20px 85px;
-  left: 50%;
 }
 
-.top_news h1:before,
-.top_news h1:after {
-  content: '';
-  position: absolute;
-  top: 50%;
-  display: inline-block;
-  width: 60px;
-  height: 2px;
-  background-color: black;
-}
-
-.top_news h1:before {
-  left: 0;
-}
-
-.top_news h1:after {
-  right: 0;
-}
-
-/* 見出しの飾り-ここまで */
 .top_news li {
   position: relative;
   margin: 20px;
@@ -77,121 +47,20 @@
   text-align: center;
   font-size: 28px;
   transform: translate(-50%, -50%);
-
-  /* 見出しの飾り-ここから */
-  position: relative;
-  display: inline-block;
-  padding: 20px 85px;
-  left: 50%;
 }
-
-.top_business h1:before,
-.top_business h1:after {
-  content: '';
-  position: absolute;
-  top: 50%;
-  display: inline-block;
-  width: 60px;
-  height: 2px;
-  background-color: black;
-}
-
-.top_business h1:before {
-  left: 0;
-}
-
-.top_business h1:after {
-  right: 0;
-}
-
-/* 見出しの飾り-ここまで */
 
 .top_business_list {
   display: flex;
   flex-wrap: wrap;
   background-color: #ffa60050;
   margin: 0 calc(50% - 50vw - 8.5px);
-  padding: 20px calc(50vw - 50%);
+  padding: 10px calc(50vw - 50%);
   width: 100vw;
-}
-
-.top_bussiness_list-element {
-  width: calc(100% / 3);
-  box-sizing: border-box;
-}
-
-.top_bussiness_contents-links {
-  display: block;
-  text-decoration: none;
-  text-align: center;
-  transition: .4s;
-  padding-top: 20px;
-
-}
-
-.top_bussiness_contents-links:hover {
-  background-color: #ffa60050;
-}
-
-.top_bussiness_content-img img {
-  object-fit: cover;
-  max-width: 87%;
-  height: 100%;
-}
-
-.top_bussiness_content-title {
-  font-weight: 700;
-  transition: .4s;
-  text-align: center;
-  color: #000;
-}
-
-
-/* ピックアップコンテンツ-ここから */
-.top_pickup h1 {
-  margin-top: 100px;
-  text-align: center;
-  font-size: 28px;
-  transform: translate(-50%, -50%);
-
-  /* 見出しの飾り-ここから */
-  position: relative;
-  display: inline-block;
-  padding: 20px 85px;
-  left: 50%;
-}
-
-.top_pickup h1:before,
-.top_pickup h1:after {
-  content: '';
-  position: absolute;
-  top: 50%;
-  display: inline-block;
-  width: 60px;
-  height: 2px;
-  background-color: black;
-}
-
-.top_pickup h1:before {
-  left: 0;
-}
-
-.top_pickup h1:after {
-  right: 0;
-}
-
-/* 見出しの飾り-ここまで */
-
-.top_pickup_list {
-  display: flex;
-  flex-wrap: wrap;
-  width: 100%;
 }
 
 .top_pickup_list-element {
   width: calc(100% / 3);
   box-sizing: border-box;
-  margin: 7px 0;
 }
 
 .top_pickup_contents-links {
@@ -200,7 +69,6 @@
   text-align: center;
   transition: .4s;
   padding-top: 20px;
-
 }
 
 .top_pickup_contents-links:hover {
@@ -209,12 +77,57 @@
 
 .top_pickup_content-img img {
   object-fit: cover;
+  max-width: 85%;
+}
+
+.top_pickup_content-title {
+  font-weight: 700;
+  transition: .4s;
+  text-align: center;
+  color: #000;
+}
+
+/* ピックアップコンテンツ-ここから */
+.top_contents h1 {
+  margin-top: 100px;
+  text-align: center;
+  font-size: 28px;
+  transform: translate(-50%, -50%);
+}
+
+.top_contents_list {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.top_contents_list-element {
+  width: calc(100% / 3);
+  box-sizing: border-box;
+  margin: 7px 0;
+}
+
+.top_contents_contents-links {
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  transition: .4s;
+  padding-top: 20px;
+
+}
+
+.top_contents_contents-links:hover {
+  background-color: #ffa60050;
+}
+
+.top_contents_content-img img {
+  object-fit: cover;
   max-width: 87%;
   height: 100%;
   margin-bottom: 10px;
 }
 
-.top_pickup_content-title {
+.top_contents_content-title {
   position: relative;
   display: inline-block;
   font-weight: 700;
@@ -226,42 +139,13 @@
 
 /* ピックアップコンテンツ-ここまで */
 
-
-
 /* 西岡Tube-ここから */
 .top_movie h1 {
   margin-top: 100px;
   text-align: center;
   font-size: 28px;
   transform: translate(-50%, -50%);
-
-  /* 見出しの飾り-ここから */
-  position: relative;
-  display: inline-block;
-  padding: 20px 85px;
-  left: 50%;
 }
-
-.top_movie h1:before,
-.top_movie h1:after {
-  content: '';
-  position: absolute;
-  top: 50%;
-  display: inline-block;
-  width: 60px;
-  height: 2px;
-  background-color: black;
-}
-
-.top_movie h1:before {
-  left: 0;
-}
-
-.top_movie h1:after {
-  right: 0;
-}
-
-/* 見出しの飾り-ここまで */
 
 .responsive {
   display: flex;
