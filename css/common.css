@@ -30,6 +30,7 @@ body {
 
 /* 見出し共通 */
 h1 {
+	padding-top: 80px;
 	margin: 0 auto;
 	border-bottom: 2px solid var(--color_main);
 	font-style: 30px;
