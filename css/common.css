@@ -29,13 +29,20 @@ body {
 }
 
 /* 見出し共通 */
+.mv {
+	margin: auto;
+	width: 45%;
+	padding-bottom: 20px;
+}
+
 h1 {
 	padding-top: 80px;
 	margin: 0 auto;
 	border-bottom: 2px solid var(--color_main);
-	font-style: 30px;
+	font-size: 35px;
 	text-align: center;
 	width: 80%;
+	letter-spacing: 10px;
 }
 
 h2 {
