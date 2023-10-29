@@ -1,5 +1,13 @@
 @charset "utf-8";
 
+.nishioka_img{
+  text-align: center;
+}
+
+.nishioka_img img{
+  width: 80%;
+}
+
 /* ゼミで習得する能力 -ここから-*/
 .nishioka_ability{
   width: 100%;
